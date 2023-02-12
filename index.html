@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles/style.css">
+    <link href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css" rel="stylesheet">
+    <title>BF</title>
+</head>
+<body>
+    <form action="">
+        <h1>BOOKFACE</h1>
+        <div class="input-box">
+            <label for="name-first">First name</label>
+            <input type="text" name="name-first" placeholder="Enter first name here" autofocus required>
+        </div>
+        <div class="input-box">
+            <label for="name-last">Last name</label>
+            <input type="text" name="name-last" placeholder="Enter last name here" required>
+        </div>
+        <div class="input-box">
+            <label for="email">E-mail</label>
+            <input type="email" name="email" placeholder="Enter e-mail address here" required>
+        </div>
+        <div class="input-box">
+            <label for="pw">Password</label>
+            <input type="password" name="pw" placeholder="Enter password here" required minlength="8">
+        </div>
+        <div class="input-box">
+            <label for="animals">Favorite animal</label>
+            <select name="animals" id="select-animal">
+                <option value="first" selected disabled>Select animal</option>
+                <option value="Zebra">Zebra</option>
+                <option value="Turtle">Turtle</option>
+                <option value="Shark">Shark</option>
+                <option value="Dragon">Dragon</option>
+                <option value="Other">Other</option>
+            </select>
+        </div>
+        <div class="terms-and-checkbox">
+            <input type="checkbox" id="checkbox" name="checkbox">
+            <label for="checkbox">I agree to all the terms and conditions</label>
+        </div>
+        <button>LOG IN</button>
+    </form>
+</body>
+</html>

@@ -1,0 +1,72 @@
+@import url('https://fonts.googleapis.com/css2?family=Titillium+Web:wght@400;700&display=swap');
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: var(--blue);
+    font-family: 'Titillium Web', sans-serif;
+    height: 100vh;
+
+    --blue:	#3b5998;
+    --light-blue: #8b9dc3;
+    --white: #f7f7f7;
+}
+
+h1 {
+    color: #ffff;
+    text-shadow: -1px 0 var(--light-blue), 0 1px var(--light-blue), 1px 0 var(--light-blue), 0 -1px var(--light-blue);
+    background-color: var(--blue);
+    padding: 10px;
+    border-radius: 4px;
+    border: 1px solid var(--light-blue);
+}
+
+form {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: column;
+
+    height: 500px ;
+    min-width: 500px;
+    padding: 20px;
+    background-color: var(--white);
+    border-radius: 4px;
+    border: 1px solid var(--light-blue);
+}
+
+.input-box {
+    display: flex;
+    flex-direction: column;
+}
+
+.terms-and-checkbox {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.terms-checkbox input:hover {
+    cursor: pointer;
+}
+
+button {
+    width: 170px;
+    height: 40px;
+    background-color: #3bf841;
+    border: 1px solid;
+    border-radius: 4px;
+    color: #ffff;
+    font-weight: 700;
+}
+
+button:hover {
+  cursor: pointer;
+  background-color: #65f76a;
+}
+
+button:active {
+    transform: scale(0.98);
+    }
